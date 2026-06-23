@@ -1,2 +1,497 @@
-<html><head><link rel='stylesheet' href='styles.css'></head><body><h1>Raag Library</h1>
-<ul><li>Yaman</li><li>Bhupali</li><li>Bhairav</li><li>Kafi</li></ul></body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Raag Library — Swara Sangam Academy</title>
+  <meta name="description" content="Detailed guide to Hindustani raags — swaras, aaroh-avaroh, vadi-samvadi, time, season, and mood of 20+ raags.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<nav>
+  <a href="index.html" class="nav-brand">॥ Swara Sangam ॥</a>
+  <div class="nav-links">
+    <a href="index.html">Home</a>
+    <a href="raags.html" class="active">Raag Library</a>
+    <a href="theory.html">Music Theory</a>
+  </div>
+</nav>
+
+<div class="raag-hero">
+  <h1>Raag Library — राग पुस्तकालय</h1>
+  <p>Detailed profiles of 20+ raags — swaras, aaroh-avaroh, vadi-samvadi, time, season, and rasa</p>
+</div>
+
+<div class="raag-filter">
+  <button class="filter-btn active" onclick="filterRaags('all', this)">All Raags</button>
+  <button class="filter-btn" onclick="filterRaags('morning', this)">Morning</button>
+  <button class="filter-btn" onclick="filterRaags('afternoon', this)">Afternoon</button>
+  <button class="filter-btn" onclick="filterRaags('evening', this)">Evening</button>
+  <button class="filter-btn" onclick="filterRaags('night', this)">Night</button>
+  <button class="filter-btn" onclick="filterRaags('anytime', this)">Any Time</button>
+</div>
+
+<div class="raags-section">
+  <div class="raags-grid" id="raags-grid">
+
+    <!-- YAMAN -->
+    <div class="raag-card" data-time="evening">
+      <div class="raag-header">
+        <div>
+          <div class="raag-name">Raag Yaman</div>
+          <div class="raag-thaat">Kalyan Thaat</div>
+        </div>
+        <span class="raag-time">Evening · 6–9 PM</span>
+      </div>
+      <div class="raag-body">
+        <div class="raag-swaras">
+          <div class="raag-swaras-label">Aaroh (Ascent)</div>
+          <div class="swar-row">
+            <span class="swar-pill">Ni</span><span class="swar-pill">Re</span><span class="swar-pill">Ga</span><span class="swar-pill tivra">Ma↑</span><span class="swar-pill">Dha</span><span class="swar-pill">Ni</span><span class="swar-pill">Sa'</span>
+          </div>
+        </div>
+        <div class="raag-swaras" style="margin-top:8px">
+          <div class="raag-swaras-label">Avaroh (Descent)</div>
+          <div class="swar-row">
+            <span class="swar-pill">Sa'</span><span class="swar-pill">Ni</span><span class="swar-pill">Dha</span><span class="swar-pill tivra">Ma↑</span><span class="swar-pill">Ga</span><span class="swar-pill">Re</span><span class="swar-pill">Sa</span>
+          </div>
+        </div>
+        <div class="raag-meta">
+          <div class="meta-item"><strong>Vadi:</strong> Ga</div>
+          <div class="meta-item"><strong>Samvadi:</strong> Ni</div>
+          <div class="meta-item"><strong>Jati:</strong> Sampurna–Sampurna</div>
+        </div>
+        <div class="raag-mood">Peaceful, devotional, romantic. The signature of all 7 Shuddha swaras plus Tivra Ma — a complete, harmonious raag ideal for beginners.</div>
+        <span class="raag-season">All seasons · Especially Monsoon</span>
+      </div>
+    </div>
+
+    <!-- BHUPALI -->
+    <div class="raag-card" data-time="evening">
+      <div class="raag-header">
+        <div>
+          <div class="raag-name">Raag Bhupali</div>
+          <div class="raag-thaat">Kalyan Thaat</div>
+        </div>
+        <span class="raag-time">Evening · 6–9 PM</span>
+      </div>
+      <div class="raag-body">
+        <div class="raag-swaras">
+          <div class="raag-swaras-label">Aaroh</div>
+          <div class="swar-row">
+            <span class="swar-pill">Sa</span><span class="swar-pill">Re</span><span class="swar-pill">Ga</span><span class="swar-pill">Pa</span><span class="swar-pill">Dha</span><span class="swar-pill">Sa'</span>
+          </div>
+        </div>
+        <div class="raag-swaras" style="margin-top:8px">
+          <div class="raag-swaras-label">Avaroh</div>
+          <div class="swar-row">
+            <span class="swar-pill">Sa'</span><span class="swar-pill">Dha</span><span class="swar-pill">Pa</span><span class="swar-pill">Ga</span><span class="swar-pill">Re</span><span class="swar-pill">Sa</span>
+          </div>
+        </div>
+        <div class="raag-meta">
+          <div class="meta-item"><strong>Vadi:</strong> Ga</div>
+          <div class="meta-item"><strong>Samvadi:</strong> Dha</div>
+          <div class="meta-item"><strong>Jati:</strong> Audav–Audav (pentatonic)</div>
+        </div>
+        <div class="raag-mood">Serene, pure, devotional longing. Uses only 5 swaras (no Ma, no Ni), making it one of the easiest and most beautiful raags to learn.</div>
+        <span class="raag-season">Winter evenings</span>
+      </div>
+    </div>
+
+    <!-- BHAIRAV -->
+    <div class="raag-card" data-time="morning">
+      <div class="raag-header">
+        <div>
+          <div class="raag-name">Raag Bhairav</div>
+          <div class="raag-thaat">Bhairav Thaat</div>
+        </div>
+        <span class="raag-time">Morning · Sunrise</span>
+      </div>
+      <div class="raag-body">
+        <div class="raag-swaras">
+          <div class="raag-swaras-label">Aaroh</div>
+          <div class="swar-row">
+            <span class="swar-pill">Sa</span><span class="swar-pill komal">Re♭</span><span class="swar-pill">Ga</span><span class="swar-pill">Ma</span><span class="swar-pill">Pa</span><span class="swar-pill komal">Dha♭</span><span class="swar-pill">Ni</span><span class="swar-pill">Sa'</span>
+          </div>
+        </div>
+        <div class="raag-swaras" style="margin-top:8px">
+          <div class="raag-swaras-label">Avaroh</div>
+          <div class="swar-row">
+            <span class="swar-pill">Sa'</span><span class="swar-pill">Ni</span><span class="swar-pill komal">Dha♭</span><span class="swar-pill">Pa</span><span class="swar-pill">Ma</span><span class="swar-pill">Ga</span><span class="swar-pill komal">Re♭</span><span class="swar-pill">Sa</span>
+          </div>
+        </div>
+        <div class="raag-meta">
+          <div class="meta-item"><strong>Vadi:</strong> Dha♭</div>
+          <div class="meta-item"><strong>Samvadi:</strong> Re♭</div>
+          <div class="meta-item"><strong>Jati:</strong> Sampurna–Sampurna</div>
+        </div>
+        <div class="raag-mood">Deeply meditative, solemn, spiritual. Associated with Shiva. The Komal Re and Komal Dha give it a gravitas suited to early morning sadhana.</div>
+        <span class="raag-season">Winter mornings</span>
+      </div>
+    </div>
+
+    <!-- KAFI -->
+    <div class="raag-card" data-time="night">
+      <div class="raag-header">
+        <div>
+          <div class="raag-name">Raag Kafi</div>
+          <div class="raag-thaat">Kafi Thaat</div>
+        </div>
+        <span class="raag-time">Night · 9 PM–12 AM</span>
+      </div>
+      <div class="raag-body">
+        <div class="raag-swaras">
+          <div class="raag-swaras-label">Aaroh</div>
+          <div class="swar-row">
+            <span class="swar-pill">Sa</span><span class="swar-pill">Re</span><span class="swar-pill komal">Ga♭</span><span class="swar-pill">Ma</span><span class="swar-pill">Pa</span><span class="swar-pill">Dha</span><span class="swar-pill komal">Ni♭</span><span class="swar-pill">Sa'</span>
+          </div>
+        </div>
+        <div class="raag-swaras" style="margin-top:8px">
+          <div class="raag-swaras-label">Avaroh</div>
+          <div class="swar-row">
+            <span class="swar-pill">Sa'</span><span class="swar-pill komal">Ni♭</span><span class="swar-pill">Dha</span><span class="swar-pill">Pa</span><span class="swar-pill">Ma</span><span class="swar-pill komal">Ga♭</span><span class="swar-pill">Re</span><span class="swar-pill">Sa</span>
+          </div>
+        </div>
+        <div class="raag-meta">
+          <div class="meta-item"><strong>Vadi:</strong> Pa</div>
+          <div class="meta-item"><strong>Samvadi:</strong> Sa</div>
+          <div class="meta-item"><strong>Jati:</strong> Sampurna–Sampurna</div>
+        </div>
+        <div class="raag-mood">Romantic, longing, bittersweet. Widely used in thumri and folk music (Hori). Its Komal Ga gives a rustic, heartfelt quality. Very popular in Bollywood compositions.</div>
+        <span class="raag-season">Spring (Holi season)</span>
+      </div>
+    </div>
+
+    <!-- TODI -->
+    <div class="raag-card" data-time="morning">
+      <div class="raag-header">
+        <div>
+          <div class="raag-name">Raag Todi</div>
+          <div class="raag-thaat">Todi Thaat</div>
+        </div>
+        <span class="raag-time">Morning · 9 AM–12 PM</span>
+      </div>
+      <div class="raag-body">
+        <div class="raag-swaras">
+          <div class="raag-swaras-label">Aaroh</div>
+          <div class="swar-row">
+            <span class="swar-pill">Sa</span><span class="swar-pill komal">Re♭</span><span class="swar-pill komal">Ga♭</span><span class="swar-pill tivra">Ma↑</span><span class="swar-pill">Pa</span><span class="swar-pill komal">Dha♭</span><span class="swar-pill">Ni</span><span class="swar-pill">Sa'</span>
+          </div>
+        </div>
+        <div class="raag-swaras" style="margin-top:8px">
+          <div class="raag-swaras-label">Avaroh</div>
+          <div class="swar-row">
+            <span class="swar-pill">Sa'</span><span class="swar-pill">Ni</span><span class="swar-pill komal">Dha♭</span><span class="swar-pill">Pa</span><span class="swar-pill tivra">Ma↑</span><span class="swar-pill komal">Ga♭</span><span class="swar-pill komal">Re♭</span><span class="swar-pill">Sa</span>
+          </div>
+        </div>
+        <div class="raag-meta">
+          <div class="meta-item"><strong>Vadi:</strong> Dha♭</div>
+          <div class="meta-item"><strong>Samvadi:</strong> Re♭</div>
+          <div class="meta-item"><strong>Jati:</strong> Sampurna–Sampurna</div>
+        </div>
+        <div class="raag-mood">Serious, profound, contemplative. One of the most complex and revered raags — 3 Komal swaras and Tivra Ma create tension and deep introspection. Considered king of morning raags.</div>
+        <span class="raag-season">Winter</span>
+      </div>
+    </div>
+
+    <!-- BAGESHRI -->
+    <div class="raag-card" data-time="night">
+      <div class="raag-header">
+        <div>
+          <div class="raag-name">Raag Bageshri</div>
+          <div class="raag-thaat">Kafi Thaat</div>
+        </div>
+        <span class="raag-time">Night · 9 PM–12 AM</span>
+      </div>
+      <div class="raag-body">
+        <div class="raag-swaras">
+          <div class="raag-swaras-label">Aaroh</div>
+          <div class="swar-row">
+            <span class="swar-pill">Sa</span><span class="swar-pill komal">Ga♭</span><span class="swar-pill">Ma</span><span class="swar-pill">Dha</span><span class="swar-pill komal">Ni♭</span><span class="swar-pill">Sa'</span>
+          </div>
+        </div>
+        <div class="raag-swaras" style="margin-top:8px">
+          <div class="raag-swaras-label">Avaroh</div>
+          <div class="swar-row">
+            <span class="swar-pill">Sa'</span><span class="swar-pill komal">Ni♭</span><span class="swar-pill">Dha</span><span class="swar-pill">Ma</span><span class="swar-pill komal">Ga♭</span><span class="swar-pill">Re</span><span class="swar-pill">Sa</span>
+          </div>
+        </div>
+        <div class="raag-meta">
+          <div class="meta-item"><strong>Vadi:</strong> Ma</div>
+          <div class="meta-item"><strong>Samvadi:</strong> Sa</div>
+          <div class="meta-item"><strong>Jati:</strong> Audav–Shadav</div>
+        </div>
+        <div class="raag-mood">Deep yearning, devotion, spiritual longing. Associated with Meera Bai's bhajans. The absence of Re in aaroh gives it a unique restlessness.</div>
+        <span class="raag-season">All seasons</span>
+      </div>
+    </div>
+
+    <!-- DARBARI -->
+    <div class="raag-card" data-time="night">
+      <div class="raag-header">
+        <div>
+          <div class="raag-name">Raag Darbari Kanada</div>
+          <div class="raag-thaat">Asavari Thaat</div>
+        </div>
+        <span class="raag-time">Deep Night · 12–3 AM</span>
+      </div>
+      <div class="raag-body">
+        <div class="raag-swaras">
+          <div class="raag-swaras-label">Aaroh</div>
+          <div class="swar-row">
+            <span class="swar-pill">Sa</span><span class="swar-pill">Re</span><span class="swar-pill komal">Ga♭</span><span class="swar-pill">Ma</span><span class="swar-pill">Pa</span><span class="swar-pill komal">Dha♭</span><span class="swar-pill komal">Ni♭</span><span class="swar-pill">Sa'</span>
+          </div>
+        </div>
+        <div class="raag-swaras" style="margin-top:8px">
+          <div class="raag-swaras-label">Avaroh</div>
+          <div class="swar-row">
+            <span class="swar-pill">Sa'</span><span class="swar-pill komal">Ni♭</span><span class="swar-pill komal">Dha♭</span><span class="swar-pill">Pa</span><span class="swar-pill">Ma</span><span class="swar-pill komal">Ga♭</span><span class="swar-pill">Re</span><span class="swar-pill">Sa</span>
+          </div>
+        </div>
+        <div class="raag-meta">
+          <div class="meta-item"><strong>Vadi:</strong> Re</div>
+          <div class="meta-item"><strong>Samvadi:</strong> Pa</div>
+          <div class="meta-item"><strong>Jati:</strong> Sampurna–Sampurna</div>
+        </div>
+        <div class="raag-mood">Royal, majestic, austere grandeur. Created by Miyan Tansen for Emperor Akbar's court. The characteristic andolan (oscillation) on Komal Ga is its hallmark. Considered one of the most powerful raags.</div>
+        <span class="raag-season">All seasons · Late night</span>
+      </div>
+    </div>
+
+    <!-- BIHAG -->
+    <div class="raag-card" data-time="night">
+      <div class="raag-header">
+        <div>
+          <div class="raag-name">Raag Bihag</div>
+          <div class="raag-thaat">Bilawal Thaat</div>
+        </div>
+        <span class="raag-time">Night · 9 PM–12 AM</span>
+      </div>
+      <div class="raag-body">
+        <div class="raag-swaras">
+          <div class="raag-swaras-label">Aaroh</div>
+          <div class="swar-row">
+            <span class="swar-pill">Sa</span><span class="swar-pill">Ga</span><span class="swar-pill">Ma</span><span class="swar-pill tivra">Ma↑</span><span class="swar-pill">Pa</span><span class="swar-pill">Ni</span><span class="swar-pill">Sa'</span>
+          </div>
+        </div>
+        <div class="raag-swaras" style="margin-top:8px">
+          <div class="raag-swaras-label">Avaroh</div>
+          <div class="swar-row">
+            <span class="swar-pill">Sa'</span><span class="swar-pill">Ni</span><span class="swar-pill">Dha</span><span class="swar-pill">Pa</span><span class="swar-pill">Ma</span><span class="swar-pill">Ga</span><span class="swar-pill">Re</span><span class="swar-pill">Sa</span>
+          </div>
+        </div>
+        <div class="raag-meta">
+          <div class="meta-item"><strong>Vadi:</strong> Ga</div>
+          <div class="meta-item"><strong>Samvadi:</strong> Ni</div>
+          <div class="meta-item"><strong>Jati:</strong> Audav–Sampurna</div>
+        </div>
+        <div class="raag-mood">Romantic, sweet, tender. Uses both Shuddha and Tivra Ma, giving it a playful, lively character. Very popular in film music — "Lag Ja Gale" is based on Bihag.</div>
+        <span class="raag-season">All seasons</span>
+      </div>
+    </div>
+
+    <!-- MARWA -->
+    <div class="raag-card" data-time="evening">
+      <div class="raag-header">
+        <div>
+          <div class="raag-name">Raag Marwa</div>
+          <div class="raag-thaat">Marwa Thaat</div>
+        </div>
+        <span class="raag-time">Evening · Dusk</span>
+      </div>
+      <div class="raag-body">
+        <div class="raag-swaras">
+          <div class="raag-swaras-label">Aaroh</div>
+          <div class="swar-row">
+            <span class="swar-pill">Sa</span><span class="swar-pill komal">Re♭</span><span class="swar-pill">Ga</span><span class="swar-pill tivra">Ma↑</span><span class="swar-pill">Dha</span><span class="swar-pill">Ni</span><span class="swar-pill">Sa'</span>
+          </div>
+        </div>
+        <div class="raag-swaras" style="margin-top:8px">
+          <div class="raag-swaras-label">Avaroh</div>
+          <div class="swar-row">
+            <span class="swar-pill">Sa'</span><span class="swar-pill">Ni</span><span class="swar-pill">Dha</span><span class="swar-pill tivra">Ma↑</span><span class="swar-pill">Ga</span><span class="swar-pill komal">Re♭</span><span class="swar-pill">Sa</span>
+          </div>
+        </div>
+        <div class="raag-meta">
+          <div class="meta-item"><strong>Vadi:</strong> Re♭</div>
+          <div class="meta-item"><strong>Samvadi:</strong> Dha</div>
+          <div class="meta-item"><strong>Jati:</strong> Shadav–Shadav (no Pa)</div>
+        </div>
+        <div class="raag-mood">Restless, anxious, unfulfilled longing. The absence of Pa and presence of both Komal Re and Tivra Ma creates a suspended, yearning quality unlike any other raag. Evokes dusk and the transition of day to night.</div>
+        <span class="raag-season">Winter evenings</span>
+      </div>
+    </div>
+
+    <!-- BILAWAL -->
+    <div class="raag-card" data-time="morning">
+      <div class="raag-header">
+        <div>
+          <div class="raag-name">Raag Bilawal</div>
+          <div class="raag-thaat">Bilawal Thaat</div>
+        </div>
+        <span class="raag-time">Morning · 6–9 AM</span>
+      </div>
+      <div class="raag-body">
+        <div class="raag-swaras">
+          <div class="raag-swaras-label">Aaroh</div>
+          <div class="swar-row">
+            <span class="swar-pill">Sa</span><span class="swar-pill">Re</span><span class="swar-pill">Ga</span><span class="swar-pill">Ma</span><span class="swar-pill">Pa</span><span class="swar-pill">Dha</span><span class="swar-pill">Ni</span><span class="swar-pill">Sa'</span>
+          </div>
+        </div>
+        <div class="raag-swaras" style="margin-top:8px">
+          <div class="raag-swaras-label">Avaroh</div>
+          <div class="swar-row">
+            <span class="swar-pill">Sa'</span><span class="swar-pill">Ni</span><span class="swar-pill">Dha</span><span class="swar-pill">Pa</span><span class="swar-pill">Ma</span><span class="swar-pill">Ga</span><span class="swar-pill">Re</span><span class="swar-pill">Sa</span>
+          </div>
+        </div>
+        <div class="raag-meta">
+          <div class="meta-item"><strong>Vadi:</strong> Dha</div>
+          <div class="meta-item"><strong>Samvadi:</strong> Ga</div>
+          <div class="meta-item"><strong>Jati:</strong> Sampurna–Sampurna</div>
+        </div>
+        <div class="raag-mood">Cheerful, fresh, optimistic. All Shuddha swaras — equivalent to the Western major scale (C major). Represents the natural, joyful mood of a bright morning.</div>
+        <span class="raag-season">Spring</span>
+      </div>
+    </div>
+
+    <!-- PURIYA DHANASHRI -->
+    <div class="raag-card" data-time="evening">
+      <div class="raag-header">
+        <div>
+          <div class="raag-name">Puriya Dhanashri</div>
+          <div class="raag-thaat">Purvi Thaat</div>
+        </div>
+        <span class="raag-time">Evening · Sunset</span>
+      </div>
+      <div class="raag-body">
+        <div class="raag-swaras">
+          <div class="raag-swaras-label">Aaroh</div>
+          <div class="swar-row">
+            <span class="swar-pill">Sa</span><span class="swar-pill komal">Re♭</span><span class="swar-pill">Ga</span><span class="swar-pill tivra">Ma↑</span><span class="swar-pill">Pa</span><span class="swar-pill komal">Dha♭</span><span class="swar-pill">Ni</span><span class="swar-pill">Sa'</span>
+          </div>
+        </div>
+        <div class="raag-swaras" style="margin-top:8px">
+          <div class="raag-swaras-label">Avaroh</div>
+          <div class="swar-row">
+            <span class="swar-pill">Sa'</span><span class="swar-pill">Ni</span><span class="swar-pill komal">Dha♭</span><span class="swar-pill">Pa</span><span class="swar-pill tivra">Ma↑</span><span class="swar-pill">Ga</span><span class="swar-pill komal">Re♭</span><span class="swar-pill">Sa</span>
+          </div>
+        </div>
+        <div class="raag-meta">
+          <div class="meta-item"><strong>Vadi:</strong> Pa</div>
+          <div class="meta-item"><strong>Samvadi:</strong> Sa</div>
+          <div class="meta-item"><strong>Jati:</strong> Sampurna–Sampurna</div>
+        </div>
+        <div class="raag-mood">Majestic, serene devotion with grandeur. Often played at sunset — the Tivra Ma and Komal Re&amp;Dha together create a cathedral-like spiritual atmosphere.</div>
+        <span class="raag-season">Autumn</span>
+      </div>
+    </div>
+
+    <!-- MALKAUNS -->
+    <div class="raag-card" data-time="night">
+      <div class="raag-header">
+        <div>
+          <div class="raag-name">Raag Malkauns</div>
+          <div class="raag-thaat">Bhairavi Thaat</div>
+        </div>
+        <span class="raag-time">Deep Night · 12–3 AM</span>
+      </div>
+      <div class="raag-body">
+        <div class="raag-swaras">
+          <div class="raag-swaras-label">Aaroh</div>
+          <div class="swar-row">
+            <span class="swar-pill">Sa</span><span class="swar-pill komal">Ga♭</span><span class="swar-pill">Ma</span><span class="swar-pill komal">Dha♭</span><span class="swar-pill komal">Ni♭</span><span class="swar-pill">Sa'</span>
+          </div>
+        </div>
+        <div class="raag-swaras" style="margin-top:8px">
+          <div class="raag-swaras-label">Avaroh</div>
+          <div class="swar-row">
+            <span class="swar-pill">Sa'</span><span class="swar-pill komal">Ni♭</span><span class="swar-pill komal">Dha♭</span><span class="swar-pill">Ma</span><span class="swar-pill komal">Ga♭</span><span class="swar-pill">Sa</span>
+          </div>
+        </div>
+        <div class="raag-meta">
+          <div class="meta-item"><strong>Vadi:</strong> Ma</div>
+          <div class="meta-item"><strong>Samvadi:</strong> Sa</div>
+          <div class="meta-item"><strong>Jati:</strong> Audav–Audav (only 5 notes)</div>
+        </div>
+        <div class="raag-mood">Dark, mysterious, fierce, and powerful. No Re, no Pa — only 5 notes, all dark. Legend says Tansen sang this to put out fire lit by Raag Deepak. Equivalent to the Western minor pentatonic scale.</div>
+        <span class="raag-season">All seasons · Late night</span>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- INFO BAND -->
+<section style="background:var(--cream);padding:50px 40px;text-align:center;">
+  <div style="max-width:700px;margin:0 auto;">
+    <h2 style="color:var(--dark);margin-bottom:14px;">Understanding Raag Notation</h2>
+    <p style="color:#555;margin-bottom:24px;">Each raag profile uses standard Hindustani notation. Here is a quick reference guide.</p>
+    <div style="display:flex;gap:20px;justify-content:center;flex-wrap:wrap;">
+      <div style="background:#fff;padding:16px 24px;border-radius:8px;border:1px solid var(--border);">
+        <span class="swar-pill" style="display:inline-block;margin-bottom:8px;">Ga</span>
+        <p style="font-size:0.85rem;color:#555;">Shuddha (natural) swara</p>
+      </div>
+      <div style="background:#fff;padding:16px 24px;border-radius:8px;border:1px solid var(--border);">
+        <span class="swar-pill komal" style="display:inline-block;margin-bottom:8px;">Ga♭</span>
+        <p style="font-size:0.85rem;color:#555;">Komal (flat) swara</p>
+      </div>
+      <div style="background:#fff;padding:16px 24px;border-radius:8px;border:1px solid var(--border);">
+        <span class="swar-pill tivra" style="display:inline-block;margin-bottom:8px;">Ma↑</span>
+        <p style="font-size:0.85rem;color:#555;">Tivra (sharp) swara — only Ma</p>
+      </div>
+      <div style="background:#fff;padding:16px 24px;border-radius:8px;border:1px solid var(--border);">
+        <span class="swar-pill" style="display:inline-block;margin-bottom:8px;">Sa'</span>
+        <p style="font-size:0.85rem;color:#555;">Upper octave (taar saptak)</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="cta-band">
+  <h2>Want to Learn These Raags?</h2>
+  <p>Our structured curriculum takes you from basic swar sadhana to performing complete raags.</p>
+  <a href="index.html#levels" class="btn-white">See Course Levels →</a>
+</section>
+
+<footer>
+  <div class="footer-grid">
+    <div class="footer-brand">
+      <h3>॥ Swara Sangam Academy ॥</h3>
+      <p>Dedicated to preserving and propagating the rich tradition of Hindustani classical music since 2008.</p>
+    </div>
+    <div class="footer-col">
+      <h4>Courses</h4>
+      <ul>
+        <li><a href="index.html#levels">Vocal</a></li>
+        <li><a href="index.html#levels">Harmonium</a></li>
+        <li><a href="index.html#levels">Tabla</a></li>
+        <li><a href="index.html#levels">Sitar</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Learn</h4>
+      <ul>
+        <li><a href="raags.html">Raag Library</a></li>
+        <li><a href="theory.html">Music Theory</a></li>
+        <li><a href="theory.html#taals">Taal Guide</a></li>
+        <li><a href="theory.html#alankars">Alankars</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Academy</h4>
+      <ul>
+        <li><a href="index.html">About Us</a></li>
+        <li><a href="index.html">Faculty</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>© 2024 Swara Sangam Academy. All rights reserved.</p>
+  </div>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
