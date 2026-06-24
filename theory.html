@@ -4,535 +4,536 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Music Theory — Swara Sangam Academy</title>
-  <meta name="description" content="Complete guide to Hindustani music theory — swaras, shrutis, taals, alankars, 10 thaats, and more.">
+  <meta name="description" content="Complete Hindustani music theory guide — swaras, shrutis, taals, ornaments, 10 thaats, and gharanas. Explained for absolute beginners.">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-<nav>
+<nav class="site-nav">
   <a href="index.html" class="nav-brand">॥ Swara Sangam ॥</a>
   <div class="nav-links">
     <a href="index.html">Home</a>
+    <a href="basics.html">Start Here</a>
     <a href="raags.html">Raag Library</a>
-    <a href="theory.html" class="active">Music Theory</a>
+    <a href="theory.html" class="active">Theory</a>
+    <a href="practice.html">Practice</a>
   </div>
 </nav>
 
-<div class="theory-hero">
-  <h1>Hindustani Music Theory</h1>
-  <p>A complete guide to the grammar, structure, and science behind Indian classical music</p>
+<div class="page-hero blue-bg">
+  <span class="hero-tag">Music Theory · Complete Guide</span>
+  <h1>The Grammar of <span>Hindustani Music</span></h1>
+  <p>Every art form has a grammar. Hindustani music's grammar is 3,000 years deep — swaras, shrutis, thaats, taals, and ornaments. This page explains all of it in plain language.</p>
 </div>
 
-<div class="theory-nav">
-  <a href="#swaras" class="active">Swaras</a>
-  <a href="#shrutis">Shrutis</a>
-  <a href="#taals">Taals</a>
-  <a href="#alankars">Alankars</a>
+<div class="theory-tabs" id="theory-tabs">
+  <a href="#swaras">Swaras</a>
+  <a href="#shrutis">Shrutis (22 Microtones)</a>
+  <a href="#taals">Taals (Rhythm)</a>
   <a href="#thaats">10 Thaats</a>
   <a href="#ornaments">Ornaments</a>
   <a href="#gharanas">Gharanas</a>
 </div>
 
-<!-- SWARAS -->
+<!-- ── SWARAS ── -->
 <div class="theory-section" id="swaras">
   <div class="theory-container">
     <h2>Swaras — स्वर</h2>
-    <p class="subtitle">The Seven Notes of Hindustani Music</p>
-    <p>The word <em>swara</em> (स्वर) comes from the Sanskrit root meaning "that which shines by itself." Unlike notes in Western music, each swara in Hindustani tradition is believed to carry its own distinct emotional quality (rasa) and is associated with specific natural sounds, animals, and deities.</p>
-    <p>The seven primary swaras (Saptak) are: <strong>Sa, Re, Ga, Ma, Pa, Dha, Ni</strong>. Of these, Sa and Pa are <em>achala</em> (fixed/immovable) — they have no komal or tivra forms. The remaining five swaras each have multiple variants, creating a 12-tone musical system.</p>
+    <p class="theory-subtitle">The Seven Musical Notes and Their 12 Forms</p>
 
-    <table class="swar-table">
+    <p>If you have read the <a href="basics.html" style="color:var(--saffron)">Foundations page</a>, you already know that a swara is a stable musical pitch, and that there are 7 primary swaras: Sa Re Ga Ma Pa Dha Ni. This section goes deeper — into why each swara has the character it does, and how the 12-note system works.</p>
+
+    <div class="analogy">
+      <div class="analogy-icon">🎨</div>
+      <div>
+        <h4>Swaras are like primary colours</h4>
+        <p>A painter has 3 primary colours (red, blue, yellow) from which all other colours are mixed. A Hindustani musician has 7 primary swaras, from which all raags, all emotions, all musical worlds are built. Just as mixing blue and yellow gives infinite shades of green, combining swaras in specific ways gives infinite emotional textures.</p>
+      </div>
+    </div>
+
+    <p>Here is the complete 12-note breakdown — the "full palette" every student must know:</p>
+
+    <table class="big-table">
       <thead>
-        <tr>
-          <th>Swar</th>
-          <th>Full Name</th>
-          <th>Sanskrit</th>
-          <th>Variants</th>
-          <th>Natural Sound Origin</th>
-          <th>Rasa (Emotion)</th>
-        </tr>
+        <tr><th>#</th><th>Swara</th><th>Full Name</th><th>Type</th><th>Emotional Character</th><th>Raags using it</th></tr>
       </thead>
       <tbody>
-        <tr>
-          <td><strong>Sa</strong></td>
-          <td>Shadja</td>
-          <td>षड्ज</td>
-          <td>Fixed (achala)</td>
-          <td>Peacock's cry</td>
-          <td>Auspicious, foundational</td>
-        </tr>
-        <tr>
-          <td><strong>Re</strong></td>
-          <td>Rishabh</td>
-          <td>ऋषभ</td>
-          <td>Komal Re, Shuddha Re</td>
-          <td>Bull's call</td>
-          <td>Pathos, longing (Komal); Joy (Shuddha)</td>
-        </tr>
-        <tr>
-          <td><strong>Ga</strong></td>
-          <td>Gandhar</td>
-          <td>गान्धार</td>
-          <td>Komal Ga, Shuddha Ga</td>
-          <td>Goat's bleat</td>
-          <td>Tenderness, grief (Komal); Heroic (Shuddha)</td>
-        </tr>
-        <tr>
-          <td><strong>Ma</strong></td>
-          <td>Madhyam</td>
-          <td>मध्यम</td>
-          <td>Shuddha Ma, Tivra Ma</td>
-          <td>Heron's call</td>
-          <td>Devotion (Shuddha); Yearning (Tivra)</td>
-        </tr>
-        <tr>
-          <td><strong>Pa</strong></td>
-          <td>Pancham</td>
-          <td>पञ्चम</td>
-          <td>Fixed (achala)</td>
-          <td>Cuckoo's song (Koyal)</td>
-          <td>Love, heroism</td>
-        </tr>
-        <tr>
-          <td><strong>Dha</strong></td>
-          <td>Dhaivat</td>
-          <td>धैवत</td>
-          <td>Komal Dha, Shuddha Dha</td>
-          <td>Horse's neigh</td>
-          <td>Tranquility (Shuddha); Deep longing (Komal)</td>
-        </tr>
-        <tr>
-          <td><strong>Ni</strong></td>
-          <td>Nishad</td>
-          <td>निषाद</td>
-          <td>Komal Ni, Shuddha Ni</td>
-          <td>Elephant's trumpet</td>
-          <td>Courage (Shuddha); Melancholy (Komal)</td>
-        </tr>
+        <tr><td>1</td><td><strong>Sa</strong></td><td>Shadja</td><td>Achala (Fixed)</td><td>Foundational, stable, auspicious. The "home" from which all music departs and returns.</td><td>All raags — Sa is always present</td></tr>
+        <tr><td>2</td><td><strong>Komal Re ♭</strong></td><td>Komal Rishabh</td><td>Komal (flat)</td><td>Melancholic, devotional, morning sorrow. Creates longing when placed next to Sa.</td><td>Bhairav, Todi, Bhairavi, Ramkali</td></tr>
+        <tr><td>3</td><td><strong>Shuddha Re</strong></td><td>Shuddha Rishabh</td><td>Natural</td><td>Bright, forward-moving, optimistic. The "next step" — takes you upward with confidence.</td><td>Yaman, Bilawal, Bihag, Kafi</td></tr>
+        <tr><td>4</td><td><strong>Komal Ga ♭</strong></td><td>Komal Gandhar</td><td>Komal (flat)</td><td>Tender, empathetic, slightly sad. The "minor third" — gives a warm, human quality.</td><td>Kafi, Bhimpalasi, Darbari, Bhairavi</td></tr>
+        <tr><td>5</td><td><strong>Shuddha Ga</strong></td><td>Shuddha Gandhar</td><td>Natural</td><td>Heroic, joyful, bright. Gives energy and lift. The "major third" of Hindustani music.</td><td>Yaman, Bhupali, Bilawal, Bihag</td></tr>
+        <tr><td>6</td><td><strong>Shuddha Ma</strong></td><td>Shuddha Madhyam</td><td>Natural</td><td>Stable, devotional, peaceful. The midpoint of the scale — a natural resting place.</td><td>Bhairavi, Kafi, Bilawal</td></tr>
+        <tr><td>7</td><td><strong>Tivra Ma ↑</strong></td><td>Tivra Madhyam</td><td>Tivra (sharp)</td><td>Yearning, anticipation, brightness. Gives a sense of "unfinished question" — always wants to resolve upward.</td><td>Yaman, Yaman Kalyan, Bihag, Marwa</td></tr>
+        <tr><td>8</td><td><strong>Pa</strong></td><td>Pancham</td><td>Achala (Fixed)</td><td>Stable, supportive, heroic. The "dominant" — the second pillar after Sa. Creates resolution and rest.</td><td>All Sampurna raags</td></tr>
+        <tr><td>9</td><td><strong>Komal Dha ♭</strong></td><td>Komal Dhaivat</td><td>Komal (flat)</td><td>Austere, meditative, deeply introspective. Creates gravity and seriousness.</td><td>Bhairav, Todi, Bhairavi, Darbari</td></tr>
+        <tr><td>10</td><td><strong>Shuddha Dha</strong></td><td>Shuddha Dhaivat</td><td>Natural</td><td>Graceful, open, romantic. Light and airy — takes the melody upward easily.</td><td>Yaman, Bilawal, Bhupali, Bihag</td></tr>
+        <tr><td>11</td><td><strong>Komal Ni ♭</strong></td><td>Komal Nishad</td><td>Komal (flat)</td><td>Melancholic, yearning, deeply emotional. Used in late-night and dawn raags.</td><td>Kafi, Khamaj, Bhairavi, Bageshri</td></tr>
+        <tr><td>12</td><td><strong>Shuddha Ni</strong></td><td>Shuddha Nishad</td><td>Natural</td><td>Courageous, soaring, reaching upward. Creates powerful drive toward the upper Sa.</td><td>Yaman, Bilawal, Bhairav, Bihag</td></tr>
       </tbody>
     </table>
 
-    <p>When all 12 notes (7 Shuddha + 4 Komal + 1 Tivra) are counted, Hindustani music uses the same 12 pitches as Western equal temperament — but the tuning and emotional interpretation of each swara differs significantly.</p>
+    <div class="lesson-block" style="margin-top:28px">
+      <h3>The two Achala swaras — Sa and Pa</h3>
+      <p>Sa and Pa are called <strong>Achala</strong> (अचल — immovable) because they have no Komal or Tivra variants. They are the two pillars of the harmonic system:</p>
+      <p><strong>Sa</strong> is the 1st harmonic (the root). <strong>Pa</strong> is the 3rd harmonic (a perfect fifth above Sa), and it is the strongest natural resonance in music. In Western terms, if Sa is C, Pa is G — the most consonant interval after the octave. This is why Pa always sounds "settled" and "supportive" against Sa, regardless of the raag.</p>
+      <p>This also explains why beginner exercises focus on Sa and Pa — you are training on the two most stable, resonant points in the entire harmonic system.</p>
+    </div>
   </div>
 </div>
 
-<!-- SHRUTIS -->
+<!-- ── SHRUTIS ── -->
 <div class="theory-section" id="shrutis">
   <div class="theory-container">
     <h2>Shrutis — श्रुति</h2>
-    <p class="subtitle">The 22 Microtones of Indian Music</p>
-    <p>Ancient Indian musicology (as described in Bharata's <em>Natyashastra</em>, ~200 BCE) divides the octave into 22 <em>shrutis</em> — the smallest perceptible pitch intervals. Each swara occupies a specific group of shrutis, accounting for the fine nuances of intonation that distinguish Indian music from Western systems.</p>
-    <p>The 22 shruti system explains why Indian classical music sounds different even when the same 12 notes are used — a "Komal Ga" in Raag Todi is slightly flatter than a "Komal Ga" in Raag Bhimpalasi. This micro-intonation is not written but transmitted from Guru to Shishya.</p>
+    <p class="theory-subtitle">The 22 Microtones — The "Pixels" of Indian Sound</p>
 
-    <div class="shruti-diagram">
-      <div class="shruti-box shuddha"><span class="shruti-num">1-4</span>Sa</div>
-      <div class="shruti-box komal"><span class="shruti-num">5-6</span>Re♭</div>
-      <div class="shruti-box shuddha"><span class="shruti-num">7-8</span>Re</div>
-      <div class="shruti-box komal"><span class="shruti-num">9-10</span>Ga♭</div>
-      <div class="shruti-box shuddha"><span class="shruti-num">11-12</span>Ga</div>
-      <div class="shruti-box shuddha"><span class="shruti-num">13-15</span>Ma</div>
-      <div class="shruti-box tivra"><span class="shruti-num">16-17</span>Ma↑</div>
-      <div class="shruti-box shuddha"><span class="shruti-num">18-19</span>Pa</div>
-      <div class="shruti-box komal"><span class="shruti-num">20</span>Dha♭</div>
-      <div class="shruti-box shuddha"><span class="shruti-num">21</span>Dha</div>
-      <div class="shruti-box komal"><span class="shruti-num">22</span>Ni♭</div>
-      <div class="shruti-box shuddha" style="width:52px"><span class="shruti-num">22+</span>Ni / Sa'</div>
+    <p>Most students know the 7 swaras and their 12 forms. But Indian musicology goes much further — it recognises <strong>22 distinct pitches</strong> within one octave, called Shrutis. This is described in detail in Bharata's <em>Natyashastra</em>, one of the oldest treatises on performing arts (approximately 200 BCE).</p>
+
+    <div class="analogy">
+      <div class="analogy-icon">🖥️</div>
+      <div>
+        <h4>Think of shrutis like pixels</h4>
+        <p>A computer screen displays millions of colours, but a painter working with paint only uses a few dozen — the rest would be imperceptible in practice. Similarly, the human ear can distinguish approximately 22 meaningfully different pitches in one octave, even though theoretically infinite pitches exist. The 22 shrutis are the "pixels" of Indian music — the finest level of pitch that is musically meaningful.</p>
+      </div>
     </div>
-    <p style="margin-top:16px;color:#666;font-size:0.88rem;">The 22-shruti system (simplified view). Modern Hindustani practice generally uses 12 tempered pitches, but the concept of shrutis informs the fine-tuning and expression (meend, gamak) applied to each note.</p>
+
+    <p>The 12 notes we normally discuss are the most prominent of the 22 shrutis. Each of the 12 notes occupies a "band" of 1–2 shrutis. The exact placement within that band varies between raags — this is why a "Komal Ga" in Raag Todi is played slightly lower than a "Komal Ga" in Raag Bhimpalasi. A trained musician's ear perceives this difference; an untrained ear may not.</p>
+
+    <div class="info-grid">
+      <div class="info-card">
+        <h4>Why does the 22-shruti system matter practically?</h4>
+        <p>It explains why Hindustani music cannot be perfectly reproduced on a keyboard — the piano has fixed, equal-tempered notes (12 per octave, evenly spaced). Hindustani music uses slightly "bent" pitches that don't fit into the piano's equal temperament. This is why sitar, sarangi, and the human voice sound richer and more expressive in this music — they can produce any of the 22 shrutis continuously.</p>
+      </div>
+      <div class="info-card">
+        <h4>The Andolan (oscillation) connects shrutis</h4>
+        <p>When a vocalist uses "andolan" — a slow, deliberate wavering on a note — they are literally moving between adjacent shrutis. In Raag Darbari Kanada, the Komal Ga is performed with a characteristic andolan between two nearby shrutis, creating the distinctive "searching" quality unique to that raag. This cannot be written in notation — it is transmitted ear-to-ear from Guru to student.</p>
+      </div>
+    </div>
+
+    <p>For a beginner: you don't need to memorise the 22 shrutis. But understanding that they exist explains why you must always practice with a Guru and a Tanpura — written notation cannot capture the fine intonation, and only a human teacher can correct your shruti placement.</p>
   </div>
 </div>
 
-<!-- TAALS -->
+<!-- ── TAALS ── -->
 <div class="theory-section" id="taals">
   <div class="theory-container">
-    <h2>Taal — ताल</h2>
-    <p class="subtitle">The Rhythmic Cycles of Hindustani Music</p>
-    <p>Taal is the rhythmic framework — a repeating cycle of beats (matras) grouped into sections called <em>vibhagas</em>. Every performance in Hindustani music happens within a taal. The first beat of a cycle is called <em>Sam</em> (X), and the empty beats are called <em>Khali</em> (0). The Tabla player and vocalist both count from Sam back to Sam.</p>
-    <p>Three speeds (laya) are used: <em>Vilambit</em> (slow), <em>Madhya</em> (medium), and <em>Drut</em> (fast). The same taal can be played at all three speeds.</p>
+    <h2>Taals — ताल</h2>
+    <p class="theory-subtitle">Rhythmic Cycles — The Heartbeat of Hindustani Music</p>
+
+    <p>If you are coming from the <a href="basics.html#rhythm" style="color:var(--saffron)">Foundations page</a>, you already know that a Taal is a repeating cycle of beats. Here we go deeper — explaining every major taal, how to count it, and what feeling it creates. You also learn about Vibhag, Sam, Khali, and the three speeds (Layas).</p>
+
+    <div class="info-grid">
+      <div class="info-card">
+        <h4>Sam — The Most Important Beat</h4>
+        <p>Beat 1 of every taal cycle is called <strong>Sam</strong> (सम). It is marked with "X" in notation. In performance, both the vocalist and the Tabla player have complete freedom to improvise — but they must meet on Sam. Missing Sam is the equivalent of a grammatical error. Arriving on Sam after a complex improvisation is the peak dramatic moment of a Hindustani performance.</p>
+      </div>
+      <div class="info-card">
+        <h4>Khali — The Empty Beat</h4>
+        <p><strong>Khali</strong> (खाली — empty) is the "anti-Sam" — a special beat where the Tabla plays a lighter sound and the clapping pattern changes from a clap to a wave. It marks the midpoint of most taals and creates tension. The music "breathes out" on Khali and "breathes in" toward Sam again.</p>
+      </div>
+      <div class="info-card">
+        <h4>Three Speeds — Laya</h4>
+        <p><strong>Vilambit</strong> (slow), <strong>Madhya</strong> (medium), <strong>Drut</strong> (fast). The same raag and bandish can be performed at all three speeds. Typically a performance starts slow (alaap + Vilambit), builds to medium, then ends with fast Drut. The contrast in speeds creates drama.</p>
+      </div>
+      <div class="info-card">
+        <h4>Vibhag — Groups Within the Cycle</h4>
+        <p>The beats are grouped into sections called <strong>Vibhag</strong>. These groups are marked by the clapping pattern. Teen Taal has four Vibhags of 4 beats each. Rupak Taal has three Vibhags (3+2+2). The Vibhag structure gives each taal its rhythmic "flavour".</p>
+      </div>
+    </div>
 
     <div class="taal-grid">
+
       <div class="taal-card">
-        <h4>Teen Taal</h4>
-        <div class="taal-beats">16 <span>matras</span></div>
+        <h4>Teen Taal — तीन ताल <span style="float:right;background:var(--dark);color:var(--gold);padding:2px 8px;border-radius:10px;font-size:0.72rem">Most Common</span></h4>
+        <div class="taal-beats">16 <small>beats · 4 vibhags of 4</small></div>
         <div class="taal-vibhag">
-          <span class="vibhag-box">X Dha Dhin Dhin</span>
-          <span class="vibhag-box">2 Dha Dhin Dhin</span>
-          <span class="vibhag-box">0 Dha Tin Tin</span>
-          <span class="vibhag-box">3 Ta Dhin Dhin</span>
+          <span class="vibhag-box sam">X: Dha Dhin Dhin Dha</span>
+          <span class="vibhag-box">2: Dha Dhin Dhin Dha</span>
+          <span class="vibhag-box khali">0: Dha Tin Tin Ta</span>
+          <span class="vibhag-box">3: Ta Dhin Dhin Dha</span>
         </div>
-        <p>The most common taal in khayal music. 4 vibhagas of 4 beats each. Used in all three speeds.</p>
+        <p>The "mother" of all taals in khayal music. Symmetrical and clear — perfect for learning. The Khali falls on beat 9, exactly halfway through the cycle.</p>
+        <div class="taal-analogy">Used for: Khayal (all speeds), Bhajan, semi-classical music</div>
       </div>
+
       <div class="taal-card">
-        <h4>Ek Taal</h4>
-        <div class="taal-beats">12 <span>matras</span></div>
+        <h4>Ek Taal — एक ताल</h4>
+        <div class="taal-beats">12 <small>beats · 6 vibhags of 2</small></div>
         <div class="taal-vibhag">
-          <span class="vibhag-box">X Dhin Dhin</span>
-          <span class="vibhag-box">0 Dhin Dhin</span>
-          <span class="vibhag-box">2 Tin Tin</span>
-          <span class="vibhag-box">0 Dhin Dhin</span>
-          <span class="vibhag-box">3 Dhin Dhin</span>
-          <span class="vibhag-box">4 Dhin Dhin</span>
+          <span class="vibhag-box sam">X: Dhin Dhin</span>
+          <span class="vibhag-box khali">0: Dhin Dhin</span>
+          <span class="vibhag-box">2: Tin Tin</span>
+          <span class="vibhag-box khali">0: Dhin Dhin</span>
+          <span class="vibhag-box">3: Dhin Dhin</span>
+          <span class="vibhag-box">4: Dhin Dhin</span>
         </div>
-        <p>6 vibhagas of 2 beats. Commonly used for Vilambit (slow) khayal. Also popular for Bhajan.</p>
+        <p>Deceptively complex for a beginner — two vibhags sound identical (Dhin Dhin) but have different functions. Has two Khalis, making it hard to track. Used in Vilambit (slow) khayal.</p>
+        <div class="taal-analogy">Used for: Slow khayal, bhajans</div>
       </div>
+
       <div class="taal-card">
-        <h4>Jhap Taal</h4>
-        <div class="taal-beats">10 <span>matras</span></div>
+        <h4>Jhap Taal — झप ताल</h4>
+        <div class="taal-beats">10 <small>beats · 4 vibhags: 2+3+2+3</small></div>
         <div class="taal-vibhag">
-          <span class="vibhag-box">X Dhi Na</span>
-          <span class="vibhag-box">2 Dhi Dhi Na</span>
-          <span class="vibhag-box">0 Ti Na</span>
-          <span class="vibhag-box">3 Dhi Dhi Na</span>
+          <span class="vibhag-box sam">X: Dhi Na</span>
+          <span class="vibhag-box">2: Dhi Dhi Na</span>
+          <span class="vibhag-box khali">0: Ti Na</span>
+          <span class="vibhag-box">3: Dhi Dhi Na</span>
         </div>
-        <p>Asymmetric — 2+3+2+3 structure. Gives a lilting, skipping quality to the rhythm.</p>
+        <p>The asymmetric 2+3+2+3 grouping gives it a "limping" or skipping quality — like a gentle wave. Very popular in semi-classical and folk-influenced music. Much easier to learn than Ek Taal.</p>
+        <div class="taal-analogy">Used for: Semi-classical khayal, bhajan</div>
       </div>
+
       <div class="taal-card">
-        <h4>Rupak Taal</h4>
-        <div class="taal-beats">7 <span>matras</span></div>
+        <h4>Rupak Taal — रूपक ताल</h4>
+        <div class="taal-beats">7 <small>beats · 3 vibhags: 3+2+2</small></div>
         <div class="taal-vibhag">
-          <span class="vibhag-box">0 Tin Tin Na</span>
-          <span class="vibhag-box">2 Dhin Na</span>
-          <span class="vibhag-box">3 Dhin Na</span>
+          <span class="vibhag-box khali">0: Tin Tin Na</span>
+          <span class="vibhag-box">2: Dhin Na</span>
+          <span class="vibhag-box">3: Dhin Na</span>
         </div>
-        <p>Unique: Sam falls on Khali (the empty beat). Creates a dreamy, floating quality. 3+2+2 structure.</p>
+        <p>Unique and counterintuitive: Sam (beat 1) falls on Khali — the "empty" beat. This reversal of expectation creates a floating, dream-like quality. The melody seems to drift without a clear anchor.</p>
+        <div class="taal-analogy">Used for: Thumri, light classical, bhajan</div>
       </div>
+
       <div class="taal-card">
-        <h4>Keherwa Taal</h4>
-        <div class="taal-beats">8 <span>matras</span></div>
+        <h4>Keherwa Taal — कहरवा ताल</h4>
+        <div class="taal-beats">8 <small>beats · 2 vibhags of 4</small></div>
         <div class="taal-vibhag">
-          <span class="vibhag-box">X Dha Ge Na Ti</span>
-          <span class="vibhag-box">0 Na Ka Dhi Na</span>
+          <span class="vibhag-box sam">X: Dha Ge Na Ti</span>
+          <span class="vibhag-box khali">0: Na Ka Dhi Na</span>
         </div>
-        <p>The most common taal in semi-classical, bhajan, and film music. 2 vibhagas of 4 beats.</p>
+        <p>The most "common" taal you will encounter in everyday life — almost all Bollywood and folk songs use Keherwa or its variants. Light, bouncy, and immediately recognisable. Very easy to learn first.</p>
+        <div class="taal-analogy">Used for: Bhajan, thumri, folk, film music</div>
       </div>
+
       <div class="taal-card">
-        <h4>Dadra Taal</h4>
-        <div class="taal-beats">6 <span>matras</span></div>
+        <h4>Dadra Taal — दादरा ताल</h4>
+        <div class="taal-beats">6 <small>beats · 2 vibhags of 3</small></div>
         <div class="taal-vibhag">
-          <span class="vibhag-box">X Dha Dhi Na</span>
-          <span class="vibhag-box">0 Dha Ti Na</span>
+          <span class="vibhag-box sam">X: Dha Dhi Na</span>
+          <span class="vibhag-box khali">0: Dha Ti Na</span>
         </div>
-        <p>Used for thumri, dadra, and Hori styles. Light, playful feel. 2 vibhagas of 3 beats each.</p>
+        <p>The waltz of Indian music — 3+3 creates a rolling, gentle sway. Named after the Dadra style of semi-classical singing. Used in Holi songs, bhajans, and thumri. Very natural and easy to feel.</p>
+        <div class="taal-analogy">Used for: Dadra gayaki, Hori, thumri, bhajan</div>
       </div>
+
       <div class="taal-card">
-        <h4>Char Taal</h4>
-        <div class="taal-beats">12 <span>matras</span></div>
+        <h4>Char Taal — चार ताल</h4>
+        <div class="taal-beats">12 <small>beats · 6 vibhags: 2+2+2+2+2+2</small></div>
         <div class="taal-vibhag">
-          <span class="vibhag-box">X Dha Dha Dhin Ta</span>
-          <span class="vibhag-box">2 Kita Dha Dha</span>
-          <span class="vibhag-box">0 Dhin Ta Kita</span>
-          <span class="vibhag-box">3 Dha Dha Dhin</span>
+          <span class="vibhag-box sam">X: Dha Dha</span>
+          <span class="vibhag-box khali">0: Dhin Ta</span>
+          <span class="vibhag-box">2: Kita Dha</span>
+          <span class="vibhag-box khali">0: Dhin Ta</span>
+          <span class="vibhag-box">3: Tita Kata</span>
+          <span class="vibhag-box">4: Gadi Gana</span>
         </div>
-        <p>Used primarily in Dhrupad and khayal. Vigorous, driving rhythm with four vibhagas.</p>
+        <p>The taal of Dhrupad — the oldest and most austere style of Hindustani music. Vigorous, driving, majestic. Two Khalis. The "kita" syllables show quick ornamentation on the Tabla.</p>
+        <div class="taal-analogy">Used for: Dhrupad, Dhamar (temple music)</div>
       </div>
+
       <div class="taal-card">
-        <h4>Deepchandi Taal</h4>
-        <div class="taal-beats">14 <span>matras</span></div>
+        <h4>Deepchandi Taal — दीपचंदी ताल</h4>
+        <div class="taal-beats">14 <small>beats · 4 vibhags: 3+4+3+4</small></div>
         <div class="taal-vibhag">
-          <span class="vibhag-box">X Dha Dhin –</span>
-          <span class="vibhag-box">2 Dha Dhin –</span>
-          <span class="vibhag-box">0 Ta Tin –</span>
-          <span class="vibhag-box">3 Ta Dhin –</span>
+          <span class="vibhag-box sam">X: Dha Dhin –</span>
+          <span class="vibhag-box">2: Dha Dhin – –</span>
+          <span class="vibhag-box khali">0: Ta Tin –</span>
+          <span class="vibhag-box">3: Ta Dhin – –</span>
         </div>
-        <p>4 vibhagas of 3+4+3+4 beats. Commonly used for Thumri in Vilambit laya.</p>
+        <p>The most common taal for Thumri (the romantic, expressive semi-classical style). Asymmetric 3+4+3+4 creates a gentle sway, like a boat on water. Deeply evocative, ideal for emotional expression.</p>
+        <div class="taal-analogy">Used for: Thumri, Dadra, romantic compositions</div>
       </div>
     </div>
   </div>
 </div>
 
-<!-- ALANKARS -->
-<div class="theory-section" id="alankars">
-  <div class="theory-container">
-    <h2>Alankars — अलंकार</h2>
-    <p class="subtitle">Melodic Exercises to Build Speed, Clarity, and Technique</p>
-    <p>Alankars (also called Paltas) are systematic melodic patterns used for daily vocal and instrumental practice. They develop muscle memory, finger dexterity (for instruments), clarity of swar, speed, and rhythmic accuracy. Every serious student begins practice with 30–60 minutes of alankar sadhana.</p>
-    <p>Alankars are practised in all three octaves (Mandra, Madhya, Taar) and at increasing tempos. Once mastered in a plain scale, they are applied within specific raags.</p>
-
-    <div class="alankars-list">
-      <div class="alankar-item">
-        <h4>Alankar 1 — Basic Ascent-Descent (Aaroh-Avaroh)</h4>
-        <span class="alankar-pattern">S R G M P D N S' | S' N D P M G R S</span>
-        <p>The foundation of all practice. Establishes the basic scale pattern and ensures clarity of each swara in both directions.</p>
-      </div>
-      <div class="alankar-item">
-        <h4>Alankar 2 — Pairs (Yugal)</h4>
-        <span class="alankar-pattern">S-R R-G G-M M-P P-D D-N N-S' | reverse</span>
-        <p>Moving in connected pairs of swaras. Builds smooth transitions (portamento) and legato style.</p>
-      </div>
-      <div class="alankar-item">
-        <h4>Alankar 3 — Triplets (Teen-Teen)</h4>
-        <span class="alankar-pattern">S R G | R G M | G M P | M P D | P D N | D N S'</span>
-        <p>Groups of three swaras ascending. Fundamental to developing rhythmic triplet patterns in Teen Taal.</p>
-      </div>
-      <div class="alankar-item">
-        <h4>Alankar 4 — Quads (Chaar-Chaar)</h4>
-        <span class="alankar-pattern">S R G M | R G M P | G M P D | M P D N | P D N S'</span>
-        <p>Groups of four — the building block of bandish compositions. Aligns naturally with 4-beat vibhagas of Teen Taal.</p>
-      </div>
-      <div class="alankar-item">
-        <h4>Alankar 5 — Skip Pattern (Kootut)</h4>
-        <span class="alankar-pattern">S G R M | G P M D | P N D S'</span>
-        <p>Alternating skip pattern (1-3-2-4). Develops agility and the ability to navigate non-linear melodic movement within a raag.</p>
-      </div>
-      <div class="alankar-item">
-        <h4>Alankar 6 — Andolan (Oscillation)</h4>
-        <span class="alankar-pattern">S~R~ G~M~ P~D~ N~S'</span>
-        <p>Slow oscillation between adjacent swaras. Essential for developing gamak, meend, and the characteristic "andolan" ornament used in raags like Darbari Kanada.</p>
-      </div>
-      <div class="alankar-item">
-        <h4>Alankar 7 — Taan Pattern (Fast Run)</h4>
-        <span class="alankar-pattern">S R G M P G M P D M P D N P D N S' D N S'</span>
-        <p>Rapid cascading pattern. Foundation for the fast taan (melodic run) that forms the climax of a khayal performance.</p>
-      </div>
-      <div class="alankar-item">
-        <h4>Alankar 8 — Meend (Glide)</h4>
-        <span class="alankar-pattern">S ——→ Pa (slow glide) | Pa ——→ Sa</span>
-        <p>Smooth gliding between swaras without touching intermediate notes. The most expressive ornament in Hindustani vocal music — the hallmark of a refined gayaki.</p>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- THAATS -->
+<!-- ── THAATS ── -->
 <div class="theory-section" id="thaats">
   <div class="theory-container">
-    <h2>10 Thaats — दस थाट</h2>
-    <p class="subtitle">The Parent Scale System of Hindustani Music</p>
-    <p>Pandit Vishnu Narayan Bhatkhande (1860–1936) classified the hundreds of Hindustani raags into 10 <em>thaats</em> — parent scales, each with a distinct combination of 7 swaras. Every raag is derived from one of these thaats, similar to how Western modes derive from the major scale.</p>
-    <p>A thaat is not itself a raag — it is simply a set of 7 notes. The raag derived from it adds rules about aaroh-avaroh, vadi, time, gamak, and mood that give it its unique identity.</p>
+    <h2>The 10 Thaats — दस थाट</h2>
+    <p class="theory-subtitle">The Parent Scale System — How All Raags Are Organised</p>
+
+    <p>In the early 20th century, Pandit Vishnu Narayan Bhatkhande faced a problem: hundreds of raags existed, but there was no systematic way to classify them. He created the <strong>10 Thaat system</strong> — classifying every raag under one of 10 parent scales.</p>
+
+    <div class="analogy">
+      <div class="analogy-icon">🌳</div>
+      <div>
+        <h4>Think of Thaats like family trees</h4>
+        <p>A thaat is like a family name — it tells you which "family" a raag belongs to. Raag Yaman, Raag Bhupali, and Raag Kedar are all in the "Kalyan family" (Kalyan Thaat). They share their characteristic Tivra Ma, but each has its own personality, rules, and emotional world.</p>
+      </div>
+    </div>
+
+    <p>A Thaat is simply a <em>set of 7 notes</em>. It is not a raag itself — it has no aaroh-avaroh rules, no vadi, no time. It is only the raw material from which raags are crafted. Think of it like a painter's palette: the palette doesn't create art — the artist's specific choices do.</p>
 
     <div class="thaat-grid">
       <div class="thaat-card">
-        <h4>1. Bilawal</h4>
-        <div class="thaat-swaras">S R G M P D N — All Shuddha</div>
-        <div class="raags-example">Raags: Bilawal, Alhaiya Bilawal, Bihag</div>
-        <p style="font-size:0.82rem;color:#666;margin-top:8px;">Equivalent to Western C major scale. The most natural, balanced thaat.</p>
+        <span class="thaat-num">Thaat 1</span>
+        <h4>Bilawal</h4>
+        <div class="thaat-swaras">S R G M P D N</div>
+        <p class="thaat-raags">Raags: Bilawal, Bihag, Alhaiya Bilawal</p>
+        <p>All Shuddha swaras — identical to the Western C major scale. The "natural" thaat, bright and open. Raags here feel cheerful and fresh.</p>
       </div>
       <div class="thaat-card">
-        <h4>2. Kalyan</h4>
-        <div class="thaat-swaras">S R G M↑ P D N — Tivra Ma</div>
-        <div class="raags-example">Raags: Yaman, Bhupali, Kedar, Hameer</div>
-        <p style="font-size:0.82rem;color:#666;margin-top:8px;">Only Ma is sharp. Creates the characteristic Lydian mood of evening raags.</p>
+        <span class="thaat-num">Thaat 2</span>
+        <h4>Kalyan</h4>
+        <div class="thaat-swaras">S R G M↑ P D N</div>
+        <p class="thaat-raags">Raags: Yaman, Bhupali, Kedar, Hameer</p>
+        <p>Only Ma is raised (Tivra). Creates a bright, anticipatory, slightly Lydian mood. The most popular evening thaat — Yaman is India's most-taught raag.</p>
       </div>
       <div class="thaat-card">
-        <h4>3. Khamaj</h4>
-        <div class="thaat-swaras">S R G M P D N♭ — Komal Ni</div>
-        <div class="raags-example">Raags: Khamaj, Jhinjhoti, Des, Tilak Kamod</div>
-        <p style="font-size:0.82rem;color:#666;margin-top:8px;">Light, romantic, semi-classical. Equivalent to Western Mixolydian.</p>
+        <span class="thaat-num">Thaat 3</span>
+        <h4>Khamaj</h4>
+        <div class="thaat-swaras">S R G M P D N♭</div>
+        <p class="thaat-raags">Raags: Khamaj, Des, Jhinjhoti, Tilak Kamod</p>
+        <p>Komal Ni only. Light, romantic, close to folk music. Equivalent to the Western Mixolydian mode. These raags have a sweet, accessible character — very common in film music.</p>
       </div>
       <div class="thaat-card">
-        <h4>4. Bhairav</h4>
-        <div class="thaat-swaras">S R♭ G M P D♭ N — Komal Re &amp; Dha</div>
-        <div class="raags-example">Raags: Bhairav, Ramkali, Kalingda, Ahir Bhairav</div>
-        <p style="font-size:0.82rem;color:#666;margin-top:8px;">Solemn, devotional morning thaat. Komal Re and Dha give deep gravitas.</p>
+        <span class="thaat-num">Thaat 4</span>
+        <h4>Bhairav</h4>
+        <div class="thaat-swaras">S R♭ G M P D♭ N</div>
+        <p class="thaat-raags">Raags: Bhairav, Ramkali, Kalingda, Ahir Bhairav</p>
+        <p>Komal Re and Komal Dha. Solemn, devotional, meditative. Prescribed for early morning. Named after Shiva in his fierce form. Deep spiritual gravity.</p>
       </div>
       <div class="thaat-card">
-        <h4>5. Poorvi</h4>
-        <div class="thaat-swaras">S R♭ G M↑ P D♭ N — Komal Re, Dha + Tivra Ma</div>
-        <div class="raags-example">Raags: Poorvi, Shree, Puriya Dhanashri</div>
-        <p style="font-size:0.82rem;color:#666;margin-top:8px;">Evening, majestic. The combination of Komal Re/Dha and Tivra Ma is unique and powerful.</p>
+        <span class="thaat-num">Thaat 5</span>
+        <h4>Poorvi</h4>
+        <div class="thaat-swaras">S R♭ G M↑ P D♭ N</div>
+        <p class="thaat-raags">Raags: Poorvi, Shree, Puriya Dhanashri</p>
+        <p>Komal Re, Komal Dha, AND Tivra Ma. A complex, powerful combination. Creates majestic grandeur at evening time — sunset raags that feel enormous and solemn.</p>
       </div>
       <div class="thaat-card">
-        <h4>6. Marwa</h4>
-        <div class="thaat-swaras">S R♭ G M↑ — D N — Komal Re + Tivra Ma, no Pa</div>
-        <div class="raags-example">Raags: Marwa, Sohini, Puriya</div>
-        <p style="font-size:0.82rem;color:#666;margin-top:8px;">The only thaat that omits Pa. Creates suspended, restless yearning at dusk.</p>
+        <span class="thaat-num">Thaat 6</span>
+        <h4>Marwa</h4>
+        <div class="thaat-swaras">S R♭ G M↑ — D N</div>
+        <p class="thaat-raags">Raags: Marwa, Sohini, Puriya</p>
+        <p>The only thaat without Pa. Komal Re + Tivra Ma + no Pa = extreme tension, restlessness, unfulfilled longing. These raags create a suspended feeling — like waiting for something that hasn't arrived.</p>
       </div>
       <div class="thaat-card">
-        <h4>7. Kafi</h4>
-        <div class="thaat-swaras">S R G♭ M P D N♭ — Komal Ga &amp; Ni</div>
-        <div class="raags-example">Raags: Kafi, Bhimpalasi, Bageshri, Dhani</div>
-        <p style="font-size:0.82rem;color:#666;margin-top:8px;">Romantic, folk-like. Equivalent to Western Dorian mode. Base of Holi songs.</p>
+        <span class="thaat-num">Thaat 7</span>
+        <h4>Kafi</h4>
+        <div class="thaat-swaras">S R G♭ M P D N♭</div>
+        <p class="thaat-raags">Raags: Kafi, Bhimpalasi, Bageshri, Dhani</p>
+        <p>Komal Ga and Komal Ni — the "minor" sound of Indian music. Romantic, folk-like, used for Holi songs and thumri. Equivalent to the Western Dorian mode.</p>
       </div>
       <div class="thaat-card">
-        <h4>8. Asavari</h4>
-        <div class="thaat-swaras">S R G♭ M P D♭ N♭ — Komal Ga, Dha, Ni</div>
-        <div class="raags-example">Raags: Asavari, Darbari Kanada, Jaunpuri</div>
-        <p style="font-size:0.82rem;color:#666;margin-top:8px;">Deep, majestic, sorrowful. Three Komal swaras give it heavy emotional weight.</p>
+        <span class="thaat-num">Thaat 8</span>
+        <h4>Asavari</h4>
+        <div class="thaat-swaras">S R G♭ M P D♭ N♭</div>
+        <p class="thaat-raags">Raags: Asavari, Darbari Kanada, Jaunpuri</p>
+        <p>Komal Ga, Dha, and Ni — three Komal swaras. Heavy, dignified, and sorrowful. Darbari Kanada (created by Tansen for Akbar's court) is the supreme expression of this thaat.</p>
       </div>
       <div class="thaat-card">
-        <h4>9. Bhairavi</h4>
-        <div class="thaat-swaras">S R♭ G♭ M P D♭ N♭ — Four Komal swaras</div>
-        <div class="raags-example">Raags: Bhairavi, Malkauns (uses 5 of these)</div>
-        <p style="font-size:0.82rem;color:#666;margin-top:8px;">The most melancholic thaat — 4 Komal notes. Often played as the closing piece of a concert.</p>
+        <span class="thaat-num">Thaat 9</span>
+        <h4>Bhairavi</h4>
+        <div class="thaat-swaras">S R♭ G♭ M P D♭ N♭</div>
+        <p class="thaat-raags">Raags: Bhairavi, Malkauns (pentatonic)</p>
+        <p>Four Komal swaras — the most melancholic thaat. Bhairavi is traditionally the last piece performed at a concert — the farewell, full of longing and acceptance. Its richness comes from using all possible Komal colours.</p>
       </div>
       <div class="thaat-card">
-        <h4>10. Todi</h4>
-        <div class="thaat-swaras">S R♭ G♭ M↑ P D♭ N — Komal Re, Ga, Dha + Tivra Ma</div>
-        <div class="raags-example">Raags: Todi, Multani, Gurjari Todi</div>
-        <p style="font-size:0.82rem;color:#666;margin-top:8px;">The most complex thaat — 3 Komal + 1 Tivra. Deep, searching, contemplative. King of morning raags.</p>
+        <span class="thaat-num">Thaat 10</span>
+        <h4>Todi</h4>
+        <div class="thaat-swaras">S R♭ G♭ M↑ P D♭ N</div>
+        <p class="thaat-raags">Raags: Todi, Multani, Gurjari Todi</p>
+        <p>Three Komal swaras AND Tivra Ma — the most complex combination. Deep, searching, restless intellectualism. Raag Todi is considered the "king of morning raags" and a mark of advanced mastery.</p>
       </div>
     </div>
   </div>
 </div>
 
-<!-- ORNAMENTS -->
+<!-- ── ORNAMENTS ── -->
 <div class="theory-section" id="ornaments">
   <div class="theory-container">
-    <h2>Gamakas — गमक (Ornaments)</h2>
-    <p class="subtitle">The Expressive Decorations of Hindustani Music</p>
-    <p>Gamakas are melodic ornaments that bring life and expression to swaras. A bare swara sung without gamaka is considered incomplete in Hindustani classical music. The masterful use of gamakas is what separates a polished artist from a student.</p>
+    <h2>Gamakas — गमक</h2>
+    <p class="theory-subtitle">Ornaments — The Emotion Embedded in Every Note</p>
 
-    <table class="swar-table">
+    <p>A note in Hindustani music is rarely sung "plain" — bare, unadorned, in isolation. Instead, every important note is approached, held, and left with specific gestures called <strong>Gamakas</strong> (गमक). These ornaments are not decoration — they are the emotion itself. The same note can sound joyful, tragic, or mysterious depending purely on how it is ornamented.</p>
+
+    <div class="analogy">
+      <div class="analogy-icon">🗣️</div>
+      <div>
+        <h4>Think of gamakas like tone in speech</h4>
+        <p>Say the word "really?" as a surprised question. Now say "really." as a flat, bored statement. Now "REALLY!" as an excited exclamation. The word is the same; the tone completely changes its meaning. Gamakas do the same thing to musical notes — the swara is the word, the gamaka is the tone of voice.</p>
+      </div>
+    </div>
+
+    <table class="big-table">
       <thead>
-        <tr>
-          <th>Gamaka</th>
-          <th>Description</th>
-          <th>Where Used</th>
-        </tr>
+        <tr><th>Gamaka</th><th>What it Is</th><th>How to Produce It</th><th>Emotional Effect</th><th>Used In</th></tr>
       </thead>
       <tbody>
         <tr>
-          <td><strong>Meend</strong></td>
-          <td>A smooth, continuous glide from one swara to another without touching intermediate notes. The most important and expressive ornament.</td>
-          <td>All raags, especially slow khayal</td>
+          <td><strong>Meend</strong><br>(मींड)</td>
+          <td>A smooth, continuous glide from one swara to another — without touching any notes in between.</td>
+          <td>Keep the throat open and voice connected throughout. Do not lift the voice or break contact. Imagine pulling silk.</td>
+          <td>Liquid, flowing, deeply expressive. Creates a sense of continuity and emotional depth.</td>
+          <td>All raags, especially slow khayal. The most important gamaka.</td>
         </tr>
         <tr>
-          <td><strong>Gamak</strong></td>
-          <td>Rapid oscillation between two adjacent swaras with force and resonance. Different from andolan in its vigour.</td>
-          <td>Darbari Kanada (Komal Ga), fast taans</td>
+          <td><strong>Andolan</strong><br>(आंदोलन)</td>
+          <td>A slow, deliberate oscillation or wavering on a single swara — staying close to the note but gently swaying around it.</td>
+          <td>Settle on the note, then gently waver about a quarter-tone above and below, at a slow pace. Like a tree in a gentle breeze.</td>
+          <td>Deep sorrow, spiritual longing, introspection. Creates a haunted, profound quality.</td>
+          <td>Raag Darbari Kanada (Komal Ga), Bhimpalasi, morning raags.</td>
         </tr>
         <tr>
-          <td><strong>Andolan</strong></td>
-          <td>Slow, gentle oscillation or wavering on a single swara. Creates a lingering, emotional effect.</td>
-          <td>Raags like Darbari, Bhimpalasi</td>
+          <td><strong>Gamak</strong><br>(गमक)</td>
+          <td>Rapid, forceful oscillation between two swaras — like a powerful trill. More vigorous than Andolan.</td>
+          <td>Quick, powerful back-and-forth between two adjacent notes. Requires breath force and vocal strength.</td>
+          <td>Power, energy, grandeur, heroism. Used in climactic moments.</td>
+          <td>Fast taans, Dhrupad, vigorous khayal passages.</td>
         </tr>
         <tr>
-          <td><strong>Khatka</strong></td>
-          <td>A quick grace note or slide from just above or below onto the target swara. Like a small flick.</td>
-          <td>Semi-classical, thumri style</td>
+          <td><strong>Khatka</strong><br>(खटका)</td>
+          <td>A quick grace note or "flick" from just above or below onto the target swara. Very brief.</td>
+          <td>Touch the neighbouring note lightly and immediately land on the target. Like a light tap on a piano key before the main key.</td>
+          <td>Playfulness, liveliness, spontaneity. Adds a sparkling quality.</td>
+          <td>Thumri, semi-classical styles. Very common in film music.</td>
         </tr>
         <tr>
-          <td><strong>Murki</strong></td>
-          <td>A rapid cluster of 3–5 notes surrounding a central swara, executed quickly. Adds sparkle and life.</td>
-          <td>Thumri, tappa, lighter styles</td>
+          <td><strong>Murki</strong><br>(मुरकी)</td>
+          <td>A rapid cluster of 3–5 notes circling around a central swara — like a fast, localised trill.</td>
+          <td>Quickly pass through 3–4 nearby notes and land on the target. Must be fast and clean — sounds like a brief bird call.</td>
+          <td>Delicacy, sophistication, wit. Like an musical exclamation point.</td>
+          <td>Thumri, tappa, ornamental passages in khayal.</td>
         </tr>
         <tr>
-          <td><strong>Kan Swar</strong></td>
-          <td>A touch or grace note — briefly touching a neighbouring swara before landing on the main note. Written as a small note.</td>
-          <td>All styles; especially bandish</td>
+          <td><strong>Kan Swara</strong><br>(कण स्वर)</td>
+          <td>A "touch note" — briefly touching a neighbouring swara before landing on the main note. Written as a small note in notation.</td>
+          <td>Like whispering the grace note — barely audible but present. The main note gets all the weight.</td>
+          <td>Subtle expressiveness, adds colour without drama. The "seasoning" of melody.</td>
+          <td>All styles. Especially common in bandish compositions.</td>
         </tr>
         <tr>
-          <td><strong>Zamzama</strong></td>
-          <td>A rapid hammering or repeated striking of the same swara, giving it a throbbing, trembling quality.</td>
-          <td>Dhrupad, vigorous taans</td>
+          <td><strong>Zamzama</strong><br>(जमजमा)</td>
+          <td>Rapid, hammered repetition of the same swara — a throbbing, vibrating effect on one note.</td>
+          <td>Re-attack the same note very quickly, repeatedly. Creates a trembling, urgent quality.</td>
+          <td>Urgency, tension, powerful invocation. Like a heartbeat accelerating.</td>
+          <td>Dhrupad, vigorous taans, dramatic passages.</td>
         </tr>
         <tr>
-          <td><strong>Gitkari</strong></td>
-          <td>Quick, circular embellishment — a cascade of notes around a central tone, like a bird's trill.</td>
-          <td>Thumri, fast passages</td>
+          <td><strong>Gitkari</strong><br>(गिटकारी)</td>
+          <td>A circular, swirling embellishment — multiple notes cascading around a centre tone. Like a trill expanding outward.</td>
+          <td>Begin at the centre note, swirl upward and downward through 4–6 nearby notes, return to centre. Fast and fluid.</td>
+          <td>Exuberance, celebration, richness of sound.</td>
+          <td>Thumri, fast khayal, ornamental passages.</td>
         </tr>
       </tbody>
     </table>
   </div>
 </div>
 
-<!-- GHARANAS -->
+<!-- ── GHARANAS ── -->
 <div class="theory-section" id="gharanas">
   <div class="theory-container">
     <h2>Gharanas — घराना</h2>
-    <p class="subtitle">Schools of Hindustani Music</p>
-    <p>A <em>gharana</em> (from "ghar" meaning house/family) is a school of music transmission — a lineage of masters passing their distinctive musical style from teacher to student over generations. Each gharana has its own characteristic approach to voice production, ornament use, tempo, and composition style. Knowing a performer's gharana immediately tells an informed listener what to expect.</p>
+    <p class="theory-subtitle">Schools of Music — Why Two Singers Sound Completely Different Singing the Same Raag</p>
 
-    <table class="swar-table">
+    <p>You may have heard two different singers perform Raag Yaman and felt they sounded completely different — same notes, but entirely different worlds. This is the effect of different <strong>Gharanas</strong> (घराना — "house" or "family").</p>
+    <p>A Gharana is a lineage of musical transmission — a style passed from Guru to student over multiple generations. Each Gharana has its own characteristic approach to voice production, ornament use, tempo, bandish style, and philosophical attitude toward music. When a Guru transmits music to a student, they transmit not just notes but an entire worldview about how music should feel.</p>
+
+    <div class="analogy">
+      <div class="analogy-icon">🍳</div>
+      <div>
+        <h4>Think of gharanas like regional cuisines</h4>
+        <p>North India has many regional cuisines — all use similar ingredients (rice, dal, spices) but each region prepares them completely differently. You can tell Punjabi food from Bengali food immediately, even if both contain the same ingredients. Gharanas are the same: all use the same swaras and raags, but the preparation — the texture, flavour, emotional emphasis — is unmistakably different.</p>
+      </div>
+    </div>
+
+    <table class="big-table">
       <thead>
-        <tr>
-          <th>Gharana</th>
-          <th>City</th>
-          <th>Style Characteristics</th>
-          <th>Notable Artists</th>
-        </tr>
+        <tr><th>Gharana</th><th>Origin</th><th>Musical Character</th><th>Famous Artists</th></tr>
       </thead>
       <tbody>
         <tr>
           <td><strong>Gwalior</strong></td>
-          <td>Gwalior, MP</td>
-          <td>Oldest khayal gharana. Clear, powerful voice, symmetrical compositions, methodical alaap, emphasis on sur shuddhata (purity of pitch).</td>
-          <td>Vishnu Digambar Paluskar, Kumar Gandharva</td>
+          <td>Gwalior, Madhya Pradesh</td>
+          <td>The oldest khayal gharana. Clear, powerful voice production. Emphasis on <em>sur shuddhi</em> (pitch purity) above all else. Symmetrical, well-structured compositions. Methodical alaap — note by note, slowly revealing the raag. Conservative and foundational.</td>
+          <td>Vishnu Digambar Paluskar, Krishnarao Shankar Pandit, Kumar Gandharva</td>
         </tr>
         <tr>
           <td><strong>Kirana</strong></td>
           <td>Kirana, Haryana</td>
-          <td>Slow, meditative, deeply emotive alaap. Emphasis on "bhav" (feeling) over speed. Extensive use of meend and andolan. Khali-pili (plain) gayaki.</td>
-          <td>Abdul Karim Khan, Gangubai Hangal, Bhimsen Joshi</td>
+          <td>Slow, deeply meditative alaap. Emphasis on <em>bhav</em> (feeling) over speed or complexity. Extensive use of meend and andolan. The voice seems to breathe the raag, not perform it. Strongly associated with spiritual music-making.</td>
+          <td>Abdul Karim Khan, Gangubai Hangal, Bhimsen Joshi, Prabha Atre</td>
         </tr>
         <tr>
           <td><strong>Agra</strong></td>
-          <td>Agra, UP</td>
-          <td>Powerful, vigorous "dhamar" ang (Dhrupad influence). Nom-tom alaap, forceful gamak, large compositions. Bold and masculine style.</td>
-          <td>Faiyaz Khan, Latafat Hussain Khan</td>
+          <td>Agra, Uttar Pradesh</td>
+          <td>Powerful, vigorous style with Dhrupad influence. "Nom-tom" alaap (starting with syllables like "nom" before words). Forceful gamak, large bandish structures. Bold, masculine, dramatic. Rooted in temple music traditions.</td>
+          <td>Faiyaz Khan, Latafat Hussain Khan, Sharafat Hussain Khan</td>
         </tr>
         <tr>
           <td><strong>Jaipur-Atrauli</strong></td>
           <td>Jaipur, Rajasthan</td>
-          <td>Complex rhythmic interplay, unusual raags, fast layakari. Emphasis on taal mastery alongside melody. Technically demanding.</td>
-          <td>Alladiya Khan, Kishori Amonkar, Mallikarjun Mansur</td>
+          <td>Technically demanding. Complex rhythmic interplay with the Tabla, unusual raags rarely heard in other gharanas. Emphasis on Layakari (rhythmic play). Fast taans woven tightly with taal. Intellectually rigorous — musicians from this gharana are known for performing rare raags.</td>
+          <td>Alladiya Khan, Kishori Amonkar, Mallikarjun Mansur, Shruti Sadolikar</td>
         </tr>
         <tr>
           <td><strong>Patiala</strong></td>
           <td>Patiala, Punjab</td>
-          <td>Blend of Dhrupad and khayal with thumri elements. Rich use of murki, gitkari, and tappa ornaments. Romantic, expressive style.</td>
-          <td>Bade Ghulam Ali Khan, Barkat Ali Khan</td>
-        </tr>
-        <tr>
-          <td><strong>Rampur-Sahaswan</strong></td>
-          <td>UP</td>
-          <td>Influence of Senia tradition (Tansen lineage). Clear articulation of notes, moderate tempo, elaborate taan patterns.</td>
-          <td>Inayat Hussain Khan, Rashid Khan</td>
+          <td>Blend of Dhrupad strength with thumri expressiveness. Rich use of murki, gitkari, and tappa ornaments (fast "jerky" style from Punjab). Romantic and emotionally direct. Bade Ghulam Ali Khan's voice — warm, voluminous, completely unique — defined this gharana for the world.</td>
+          <td>Bade Ghulam Ali Khan, Barkat Ali Khan, Amanat Ali Khan</td>
         </tr>
         <tr>
           <td><strong>Mewati</strong></td>
-          <td>Rajasthan/Haryana</td>
-          <td>Devotional content (bhakti), heavily influenced by Bhairavi and Yaman. Blend of khayal and thumri with spiritual quality.</td>
-          <td>Pandit Jasraj</td>
+          <td>Mewat, Rajasthan/Haryana</td>
+          <td>Strong devotional content (bhakti). Blend of khayal and thumri with spiritual purpose. Heavy emphasis on Bhairavi and devotional raags. Pandit Jasraj's voice — gentle, mellifluous, devotional — made Mewati Gharana accessible to millions worldwide through his bhajans and classical performances.</td>
+          <td>Pandit Jasraj, Sanjeev Abhyankar</td>
         </tr>
       </tbody>
     </table>
+
+    <div class="lesson-block tip" style="margin-top:28px">
+      <h3>✓ How to use Gharana knowledge as a student</h3>
+      <p>Don't worry about choosing a Gharana until you have a Guru. When you study under a Guru, you will naturally absorb their Gharana's approach. As a listener, knowing Gharanas helps you identify why the same raag feels completely different from two different artists. Listen to Raag Yaman by Kishori Amonkar (Jaipur-Atrauli) and then by Bhimsen Joshi (Kirana) — you will hear two entirely different emotional worlds in the same raag.</p>
+    </div>
   </div>
 </div>
 
 <section class="cta-band">
-  <h2>Ready to Apply This Theory in Practice?</h2>
-  <p>Knowing the theory is the first step. The second is a patient, experienced Guru.</p>
-  <a href="raags.html" class="btn-white">Explore the Raag Library →</a>
+  <h2>Theory is Only Half the Story</h2>
+  <p>The other half is practice. Go put this knowledge to work.</p>
+  <a href="practice.html" class="btn btn-white">Start the Practice Program →</a>
 </section>
 
 <footer>
   <div class="footer-grid">
     <div class="footer-brand">
       <h3>॥ Swara Sangam Academy ॥</h3>
-      <p>Dedicated to preserving and propagating the rich tradition of Hindustani classical music since 2008.</p>
-    </div>
-    <div class="footer-col">
-      <h4>Courses</h4>
-      <ul>
-        <li><a href="index.html#levels">Vocal</a></li>
-        <li><a href="index.html#levels">Harmonium</a></li>
-        <li><a href="index.html#levels">Tabla</a></li>
-        <li><a href="index.html#levels">Sitar</a></li>
-      </ul>
+      <p>Teaching Hindustani classical music since 2008. Affiliated with Gandharva Mahavidyalaya, Pune.</p>
     </div>
     <div class="footer-col">
       <h4>Learn</h4>
       <ul>
-        <li><a href="raags.html">Raag Library</a></li>
+        <li><a href="basics.html">Foundations</a></li>
         <li><a href="theory.html">Music Theory</a></li>
-        <li><a href="theory.html#taals">Taal Guide</a></li>
-        <li><a href="theory.html#alankars">Alankars</a></li>
+        <li><a href="raags.html">Raag Library</a></li>
+        <li><a href="practice.html">Daily Practice</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Theory</h4>
+      <ul>
+        <li><a href="#swaras">Swaras</a></li>
+        <li><a href="#taals">Taals</a></li>
+        <li><a href="#thaats">10 Thaats</a></li>
+        <li><a href="#ornaments">Ornaments</a></li>
+        <li><a href="#gharanas">Gharanas</a></li>
       </ul>
     </div>
     <div class="footer-col">
       <h4>Academy</h4>
       <ul>
         <li><a href="index.html">About Us</a></li>
-        <li><a href="index.html">Faculty</a></li>
+        <li><a href="#">Faculty</a></li>
         <li><a href="#">Contact</a></li>
       </ul>
     </div>
   </div>
-  <div class="footer-bottom">
-    <p>© 2024 Swara Sangam Academy. All rights reserved.</p>
-  </div>
+  <div class="footer-bottom">© 2024 Swara Sangam Academy · All rights reserved</div>
 </footer>
 
 <script src="app.js"></script>
