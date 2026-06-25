@@ -1020,4 +1020,172 @@ body.lang-hindi .lang-en-inline { display: none; }
   .footer-grid { grid-template-columns: 1fr; }
   .footer-bottom { flex-direction: column; gap: 12px; text-align: center; }
   .raags-grid { grid-template-columns: 1fr; }
+  .lyrics-table { font-size: 0.78rem; }
+  .filmi-song-grid { grid-template-columns: 1fr; }
+  .raag-quick-stats { grid-template-columns: repeat(3,1fr); }
+  .pitch-row { grid-template-columns: 120px 1fr; }
+  .pitch-keys, .pitch-note-name { grid-column: 1 / -1; padding-left: 24px; padding-top: 4px; }
+  .bandish-grid { grid-template-columns: 1fr; }
 }
+
+/* ── BOLLYWOOD SONG SECTION ── */
+.filmi-section { background: var(--dark-md); }
+.filmi-song-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 22px;
+}
+.filmi-song-card {
+  background: rgba(255,255,255,.03);
+  border: 1px solid rgba(255,255,255,.08);
+  border-radius: 14px;
+  overflow: hidden;
+}
+.filmi-song-header {
+  padding: 18px 22px 14px;
+  border-bottom: 1px solid rgba(255,255,255,.06);
+}
+.filmi-song-title {
+  color: var(--gold-lt);
+  font-size: 1.05rem;
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+.filmi-song-meta {
+  color: #6B5040;
+  font-size: 0.76rem;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.filmi-song-meta span {
+  background: rgba(255,255,255,.04);
+  padding: 2px 8px;
+  border-radius: 10px;
+}
+.filmi-song-body { padding: 18px 22px; }
+.filmi-song-body p { color: #8A7060; font-size: 0.85rem; line-height: 1.75; margin-bottom: 14px; }
+
+/* Lyrics table — syllable / note grid */
+.lyrics-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 10px 0 16px;
+}
+.lyrics-table tr.lyric-row td {
+  padding: 7px 10px;
+  font-size: 0.95rem;
+  font-weight: bold;
+  color: #E0C890;
+  border-bottom: 1px solid rgba(255,255,255,.04);
+  text-align: center;
+  white-space: nowrap;
+}
+.lyrics-table tr.note-row td {
+  padding: 4px 10px 10px;
+  font-size: 0.72rem;
+  color: #6B5040;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  text-align: center;
+  border-bottom: 1px solid rgba(255,255,255,.04);
+  white-space: nowrap;
+}
+.lyrics-table tr.note-row td.note-komal { color: #C87070; }
+.lyrics-table tr.note-row td.note-tivra  { color: #7DC87D; }
+.lyrics-table tr.note-row td.note-hi    { color: var(--gold); }
+.lyrics-table-label {
+  font-size: 0.7rem;
+  color: #5A4040;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  margin-bottom: 6px;
+}
+
+.filmi-raag-note {
+  background: rgba(212,93,10,.08);
+  border: 1px solid rgba(212,93,10,.2);
+  border-radius: 8px;
+  padding: 10px 14px;
+  margin-top: 10px;
+}
+.filmi-raag-note p { color: #C08060; font-size: 0.8rem; margin: 0; }
+.filmi-raag-note strong { color: var(--saffron-lt); }
+
+.filmi-practice-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: rgba(42,92,42,.15);
+  color: #7DC87D;
+  border: 1px solid rgba(42,92,42,.25);
+  border-radius: 20px;
+  padding: 4px 12px;
+  font-size: 0.73rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-top: 8px;
+}
+
+/* ── BANDISH SECTION ── */
+.bandish-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 22px;
+}
+.bandish-card {
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  overflow: hidden;
+}
+.bandish-header {
+  background: var(--dark);
+  padding: 16px 22px;
+  border-bottom: 1px solid rgba(255,255,255,.06);
+}
+.bandish-name { color: var(--gold-lt); font-size: 1rem; font-weight: bold; }
+.bandish-meta { color: #6B5040; font-size: 0.76rem; display: flex; gap: 8px; flex-wrap: wrap; margin-top: 5px; }
+.bandish-meta span { background: rgba(255,255,255,.04); padding: 2px 8px; border-radius: 10px; }
+.bandish-body { padding: 18px 22px; background: var(--cream); }
+
+.bandish-part { margin-bottom: 20px; }
+.bandish-part-label {
+  font-size: 0.68rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: var(--muted);
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+.bandish-line {
+  margin-bottom: 12px;
+}
+.bandish-line-lyrics {
+  font-size: 1rem;
+  color: var(--dark);
+  font-weight: bold;
+  margin-bottom: 3px;
+}
+.bandish-line-hindi {
+  font-size: 0.9rem;
+  color: #3A2A18;
+  margin-bottom: 3px;
+}
+.bandish-line-notes {
+  font-size: 0.78rem;
+  color: var(--saffron);
+  letter-spacing: 1.5px;
+  font-weight: bold;
+  font-family: monospace;
+}
+.bandish-line-notes .kn { color: var(--red); }
+.bandish-line-notes .tv { color: var(--green); }
+.bandish-meaning {
+  background: rgba(184,134,11,.08);
+  border-left: 3px solid var(--gold);
+  padding: 10px 14px;
+  border-radius: 0 8px 8px 0;
+  margin-top: 14px;
+}
+.bandish-meaning p { color: var(--muted); font-size: 0.83rem; margin: 0; }
